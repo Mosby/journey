@@ -52,7 +52,7 @@ var app = {
         //     } 
         //  });
         // console.log(journey);
-        
+                
         // journeys.fetch(
         //     function() { // Success
         //         while(journeys.hasNextEntity()) {

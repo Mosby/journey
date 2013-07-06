@@ -153,3 +153,26 @@ Terminating in response to SpringBoard's termination.
 2013-07-06 20:49:47.540 Journey[10031:c07] Resetting plugins due to page load.
 2013-07-06 20:49:47.625 Journey[10031:c07] Finished load of: file:///Users/daan.debie/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/BD457065-0430-4D0A-8AF8-F724B66A474E/Journey.app/www/home.html
 Terminating in response to SpringBoard's termination.
+2013-07-06 20:55:23.493 Journey[10609:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-06 20:55:23.539 Journey[10609:c07] Resetting plugins due to page load.
+2013-07-06 20:55:23.766 Journey[10609:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-07-06 20:55:23.771 Journey[10609:c07] Finished load of: file:///Users/daan.debie/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/BD457065-0430-4D0A-8AF8-F724B66A474E/Journey.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2013-07-06 21:59:40.941 Journey[10925:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-06 21:59:41.004 Journey[10925:c07] Resetting plugins due to page load.
+2013-07-06 21:59:41.243 Journey[10925:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-07-06 21:59:41.248 Journey[10925:c07] Finished load of: file:///Users/daan.debie/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/BD457065-0430-4D0A-8AF8-F724B66A474E/Journey.app/www/index.html
+2013-07-06 22:01:04.673 Journey[10925:c07] calling: GET https://api.usergrid.com/asagustin/journey/token?username=debie.daan%40gmail.com&password=buza&grant_type=password&access_token=YWMt157IIOZsEeKev4NKJGmgvQAAAT_ZXiGiuX3VfjC2NcFC3t0zTIZ41YxM8vk
+2013-07-06 22:01:06.210 Journey[10925:c07] success (time: 2.56): GET https://api.usergrid.com/asagustin/journey/token?username=debie.daan%40gmail.com&password=buza&grant_type=password&access_token=YWMt157IIOZsEeKev4NKJGmgvQAAAT_ZXiGiuX3VfjC2NcFC3t0zTIZ41YxM8vk
+2013-07-06 22:01:06.213 Journey[10925:c07] Resetting plugins due to page load.
+2013-07-06 22:01:06.292 Journey[10925:c07] Finished load of: file:///Users/daan.debie/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/BD457065-0430-4D0A-8AF8-F724B66A474E/Journey.app/www/home.html
+Terminating in response to SpringBoard's termination.
+2013-07-06 22:01:23.147 Journey[11150:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-06 22:01:23.211 Journey[11150:c07] Resetting plugins due to page load.
+2013-07-06 22:01:23.436 Journey[11150:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release. 
+2013-07-06 22:01:23.440 Journey[11150:c07] Finished load of: file:///Users/daan.debie/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/BD457065-0430-4D0A-8AF8-F724B66A474E/Journey.app/www/index.html
+2013-07-06 22:01:30.082 Journey[11150:c07] calling: GET https://api.usergrid.com/asagustin/journey/token?username=dqwfwef&password=wefwefwef&grant_type=password&access_token=YWMtzdyRUOZ2EeK1zIvtH2M5aQAAAT_Zn2rlpcbmGevyegwiGauh-6yFBzV2Bz0
+2013-07-06 22:01:30.885 Journey[11150:c07] success (time: 1.34): GET https://api.usergrid.com/asagustin/journey/token?username=dqwfwef&password=wefwefwef&grant_type=password&access_token=YWMtzdyRUOZ2EeK1zIvtH2M5aQAAAT_Zn2rlpcbmGevyegwiGauh-6yFBzV2Bz0
+2013-07-06 22:01:30.885 Journey[11150:c07] Error (400)(invalid_grant): invalid username or password
+2013-07-06 22:01:30.885 Journey[11150:c07] error trying to log user in
+Terminating in response to SpringBoard's termination.
