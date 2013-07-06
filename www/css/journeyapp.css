@@ -2,6 +2,15 @@
 	display:block;
 }
 
+.right {
+	float:right;
+}
+
+.bold {
+	font-weight:800;
+}
+
+
 body.home #reposHome{
 	background:url(../img/home-bg.jpg) no-repeat;
 	background-size:100%;
@@ -26,4 +35,22 @@ body.home #reposHome{
 	width:75%;
 	display:block;
 	margin:175px auto 0;
+}
+
+
+/* HOME */
+.profile {
+	height:40px;
+	width:auto;
+	position:absolute;
+	top:0;
+	right:5px;
+}
+
+.no-collapse .ui-collapsible-content {
+	display:none;
+}
+
+.no-collapse h3 a {
+	color:#fff;
 }
