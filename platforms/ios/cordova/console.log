@@ -1,0 +1,107 @@
+2013-07-06 20:13:08.511 Journey[7130:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-06 20:13:08.590 Journey[7130:c07] Resetting plugins due to page load.
+2013-07-06 20:13:08.829 Journey[7130:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release.
+2013-07-06 20:13:08.834 Journey[7130:c07] Finished load of: file:///Users/daan.debie/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/BD457065-0430-4D0A-8AF8-F724B66A474E/Journey.app/www/index.html
+2013-07-06 20:13:08.839 Journey[7130:c07] calling: GET https://api.usergrid.com/asagustin/journey/token?username=daan&password=buza&grant_type=password
+2013-07-06 20:13:08.841 Journey[7130:c07] calling: GET https://api.usergrid.com/asagustin/journey/journeys
+2013-07-06 20:13:08.843 Journey[7130:c07] no_name_specified
+2013-07-06 20:13:08.843 Journey[7130:c07] calling: POST https://api.usergrid.com/asagustin/journey/journeys
+2013-07-06 20:13:08.845 Journey[7130:c07] [object Object]
+2013-07-06 20:13:08.845 Journey[7130:c07] calling: GET https://api.usergrid.com/asagustin/journey/journeys
+2013-07-06 20:13:09.428 Journey[7130:c07] success (time: 0.97): GET https://api.usergrid.com/asagustin/journey/journeys
+2013-07-06 20:13:09.428 Journey[7130:c07] Error (401)(unauthorized): Subject does not have permission [applications:get:90048450-e630-11e2-b6c5-09ad5c7b7193:/journeys]
+2013-07-06 20:13:09.428 Journey[7130:c07] error getting collection
+2013-07-06 20:13:09.529 Journey[7130:c07] success (time: 1.14): GET https://api.usergrid.com/asagustin/journey/token?username=daan&password=buza&grant_type=password
+2013-07-06 20:13:09.530 Journey[7130:c07] login succeeded
+2013-07-06 20:13:09.547 Journey[7130:c07] success (time: 1.17): POST https://api.usergrid.com/asagustin/journey/journeys
+2013-07-06 20:13:09.547 Journey[7130:c07] Error (401)(unauthorized): Subject does not have permission [applications:post:90048450-e630-11e2-b6c5-09ad5c7b7193:/journeys]
+2013-07-06 20:13:09.548 Journey[7130:c07] could not save entity
+2013-07-06 20:13:09.548 Journey[7130:c07] write failed
+2013-07-06 20:13:09.549 Journey[7130:c07] success (time: 1.17): GET https://api.usergrid.com/asagustin/journey/journeys
+2013-07-06 20:13:09.549 Journey[7130:c07] Error (401)(unauthorized): Subject does not have permission [applications:get:90048450-e630-11e2-b6c5-09ad5c7b7193:/journeys]
+2013-07-06 20:13:09.550 Journey[7130:c07] error getting collection
+Terminating in response to SpringBoard's termination.
+2013-07-06 20:17:17.692 Journey[7522:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-06 20:17:17.754 Journey[7522:c07] Resetting plugins due to page load.
+2013-07-06 20:17:17.999 Journey[7522:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release.
+2013-07-06 20:17:18.003 Journey[7522:c07] Finished load of: file:///Users/daan.debie/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/BD457065-0430-4D0A-8AF8-F724B66A474E/Journey.app/www/index.html
+2013-07-06 20:17:18.009 Journey[7522:c07] calling: GET https://api.usergrid.com/asagustin/journey/token?username=daan&password=buza&grant_type=password&access_token=YWMtuYDEYOZnEeKDS0loVyg6kwAAAT_ZPJemulkHu8YjHvHQijPpQWasTjibgso
+2013-07-06 20:17:18.011 Journey[7522:c07] calling: GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtuYDEYOZnEeKDS0loVyg6kwAAAT_ZPJemulkHu8YjHvHQijPpQWasTjibgso
+2013-07-06 20:17:18.014 Journey[7522:c07] no_name_specified
+2013-07-06 20:17:18.014 Journey[7522:c07] calling: POST https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtuYDEYOZnEeKDS0loVyg6kwAAAT_ZPJemulkHu8YjHvHQijPpQWasTjibgso
+2013-07-06 20:17:18.016 Journey[7522:c07] [object Object]
+2013-07-06 20:17:18.016 Journey[7522:c07] calling: GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtuYDEYOZnEeKDS0loVyg6kwAAAT_ZPJemulkHu8YjHvHQijPpQWasTjibgso
+2013-07-06 20:17:18.960 Journey[7522:c07] success (time: 1.57): GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtuYDEYOZnEeKDS0loVyg6kwAAAT_ZPJemulkHu8YjHvHQijPpQWasTjibgso
+2013-07-06 20:17:18.967 Journey[7522:c07] success (time: 1.58): POST https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtuYDEYOZnEeKDS0loVyg6kwAAAT_ZPJemulkHu8YjHvHQijPpQWasTjibgso
+2013-07-06 20:17:18.967 Journey[7522:c07] write succeeded
+2013-07-06 20:17:19.007 Journey[7522:c07] success (time: 1.65): GET https://api.usergrid.com/asagustin/journey/token?username=daan&password=buza&grant_type=password&access_token=YWMtuYDEYOZnEeKDS0loVyg6kwAAAT_ZPJemulkHu8YjHvHQijPpQWasTjibgso
+2013-07-06 20:17:19.007 Journey[7522:c07] login succeeded
+2013-07-06 20:17:19.024 Journey[7522:c07] success (time: 1.68): GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtuYDEYOZnEeKDS0loVyg6kwAAAT_ZPJemulkHu8YjHvHQijPpQWasTjibgso
+2013-07-06 20:17:19.024 Journey[7522:c07] [object Object]
+2013-07-06 20:17:19.025 Journey[7522:c07] [object Object]
+2013-07-06 20:17:19.025 Journey[7522:c07] [object Object]
+Terminating in response to SpringBoard's termination.
+2013-07-06 20:20:13.435 Journey[7763:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-06 20:20:13.497 Journey[7763:c07] Resetting plugins due to page load.
+2013-07-06 20:20:13.735 Journey[7763:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release.
+2013-07-06 20:20:13.740 Journey[7763:c07] Finished load of: file:///Users/daan.debie/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/BD457065-0430-4D0A-8AF8-F724B66A474E/Journey.app/www/index.html
+2013-07-06 20:20:13.746 Journey[7763:c07] calling: GET https://api.usergrid.com/asagustin/journey/token?username=daan&password=buza&grant_type=password&access_token=YWMtTjHM0OZoEeK13W17ujokOwAAAT_ZQGYdMUTVkj6dr9_Iv4vHF_TI8lNwoGY
+2013-07-06 20:20:13.748 Journey[7763:c07] calling: GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtTjHM0OZoEeK13W17ujokOwAAAT_ZQGYdMUTVkj6dr9_Iv4vHF_TI8lNwoGY
+2013-07-06 20:20:13.750 Journey[7763:c07] no_name_specified
+2013-07-06 20:20:13.750 Journey[7763:c07] calling: POST https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtTjHM0OZoEeK13W17ujokOwAAAT_ZQGYdMUTVkj6dr9_Iv4vHF_TI8lNwoGY
+2013-07-06 20:20:13.752 Journey[7763:c07] [object Object]
+2013-07-06 20:20:13.752 Journey[7763:c07] calling: GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtTjHM0OZoEeK13W17ujokOwAAAT_ZQGYdMUTVkj6dr9_Iv4vHF_TI8lNwoGY
+2013-07-06 20:20:14.562 Journey[7763:c07] success (time: 1.35): GET https://api.usergrid.com/asagustin/journey/token?username=daan&password=buza&grant_type=password&access_token=YWMtTjHM0OZoEeK13W17ujokOwAAAT_ZQGYdMUTVkj6dr9_Iv4vHF_TI8lNwoGY
+2013-07-06 20:20:14.563 Journey[7763:c07] login succeeded
+2013-07-06 20:20:14.565 Journey[7763:c07] success (time: 1.35): GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtTjHM0OZoEeK13W17ujokOwAAAT_ZQGYdMUTVkj6dr9_Iv4vHF_TI8lNwoGY
+2013-07-06 20:20:14.567 Journey[7763:c07] success (time: 1.36): GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtTjHM0OZoEeK13W17ujokOwAAAT_ZQGYdMUTVkj6dr9_Iv4vHF_TI8lNwoGY
+2013-07-06 20:20:14.568 Journey[7763:c07] [object Object]
+2013-07-06 20:20:14.568 Journey[7763:c07] [object Object]
+2013-07-06 20:20:14.568 Journey[7763:c07] [object Object]
+2013-07-06 20:20:14.570 Journey[7763:c07] success (time: 1.36): POST https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtTjHM0OZoEeK13W17ujokOwAAAT_ZQGYdMUTVkj6dr9_Iv4vHF_TI8lNwoGY
+2013-07-06 20:20:14.571 Journey[7763:c07] write succeeded
+Terminating in response to SpringBoard's termination.
+2013-07-06 20:23:54.370 Journey[8154:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-06 20:23:54.433 Journey[8154:c07] Resetting plugins due to page load.
+2013-07-06 20:23:54.671 Journey[8154:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release.
+2013-07-06 20:23:54.676 Journey[8154:c07] Finished load of: file:///Users/daan.debie/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/BD457065-0430-4D0A-8AF8-F724B66A474E/Journey.app/www/index.html
+2013-07-06 20:23:54.681 Journey[8154:c07] calling: GET https://api.usergrid.com/asagustin/journey/token?username=daan&password=buza&grant_type=password&access_token=YWMttsRHAOZoEeKRV0M-xeDgbQAAAT_ZQxNw6EGQSI5h1M7PvtiJTg4ToJaygzw
+2013-07-06 20:23:54.684 Journey[8154:c07] calling: GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMttsRHAOZoEeKRV0M-xeDgbQAAAT_ZQxNw6EGQSI5h1M7PvtiJTg4ToJaygzw
+2013-07-06 20:23:54.686 Journey[8154:c07] no_name_specified
+2013-07-06 20:23:54.686 Journey[8154:c07] calling: POST https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMttsRHAOZoEeKRV0M-xeDgbQAAAT_ZQxNw6EGQSI5h1M7PvtiJTg4ToJaygzw
+2013-07-06 20:23:54.688 Journey[8154:c07] [object Object]
+2013-07-06 20:23:54.688 Journey[8154:c07] calling: GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMttsRHAOZoEeKRV0M-xeDgbQAAAT_ZQxNw6EGQSI5h1M7PvtiJTg4ToJaygzw
+2013-07-06 20:23:55.557 Journey[8154:c07] success (time: 1.44): GET https://api.usergrid.com/asagustin/journey/token?username=daan&password=buza&grant_type=password&access_token=YWMttsRHAOZoEeKRV0M-xeDgbQAAAT_ZQxNw6EGQSI5h1M7PvtiJTg4ToJaygzw
+2013-07-06 20:23:55.558 Journey[8154:c07] login succeeded
+2013-07-06 20:23:55.571 Journey[8154:c07] success (time: 1.47): GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMttsRHAOZoEeKRV0M-xeDgbQAAAT_ZQxNw6EGQSI5h1M7PvtiJTg4ToJaygzw
+2013-07-06 20:23:55.572 Journey[8154:c07] [object Object]
+2013-07-06 20:23:55.572 Journey[8154:c07] [object Object]
+2013-07-06 20:23:55.572 Journey[8154:c07] [object Object]
+2013-07-06 20:23:55.573 Journey[8154:c07] [object Object]
+2013-07-06 20:23:55.635 Journey[8154:c07] success (time: 1.57): POST https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMttsRHAOZoEeKRV0M-xeDgbQAAAT_ZQxNw6EGQSI5h1M7PvtiJTg4ToJaygzw
+2013-07-06 20:23:55.636 Journey[8154:c07] write succeeded
+2013-07-06 20:23:55.638 Journey[8154:c07] success (time: 1.58): GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMttsRHAOZoEeKRV0M-xeDgbQAAAT_ZQxNw6EGQSI5h1M7PvtiJTg4ToJaygzw
+Terminating in response to SpringBoard's termination.
+2013-07-06 20:24:50.622 Journey[8536:c07] Multi-tasking -> Device: YES, App: YES
+2013-07-06 20:24:50.684 Journey[8536:c07] Resetting plugins due to page load.
+2013-07-06 20:24:50.922 Journey[8536:c07] DEPRECATION NOTICE: The Connection ReachableViaWWAN return value of '2g' is deprecated as of Cordova version 2.6.0 and will be changed to 'cellular' in a future release.
+2013-07-06 20:24:50.927 Journey[8536:c07] Finished load of: file:///Users/daan.debie/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/BD457065-0430-4D0A-8AF8-F724B66A474E/Journey.app/www/index.html
+2013-07-06 20:24:50.932 Journey[8536:c07] calling: GET https://api.usergrid.com/asagustin/journey/token?username=daan&password=buza&grant_type=password&access_token=YWMtOpAN0OZpEeKfKNV_B_o1mwAAAT_ZRnMtc_cTETVMD81QRbW-l8FUUQ5w3KY
+2013-07-06 20:24:50.934 Journey[8536:c07] calling: GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtOpAN0OZpEeKfKNV_B_o1mwAAAT_ZRnMtc_cTETVMD81QRbW-l8FUUQ5w3KY
+2013-07-06 20:24:50.937 Journey[8536:c07] no_name_specified
+2013-07-06 20:24:50.937 Journey[8536:c07] calling: POST https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtOpAN0OZpEeKfKNV_B_o1mwAAAT_ZRnMtc_cTETVMD81QRbW-l8FUUQ5w3KY
+2013-07-06 20:24:50.939 Journey[8536:c07] [object Object]
+2013-07-06 20:24:50.939 Journey[8536:c07] calling: GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtOpAN0OZpEeKfKNV_B_o1mwAAAT_ZRnMtc_cTETVMD81QRbW-l8FUUQ5w3KY
+2013-07-06 20:24:51.884 Journey[8536:c07] success (time: 1.57): GET https://api.usergrid.com/asagustin/journey/token?username=daan&password=buza&grant_type=password&access_token=YWMtOpAN0OZpEeKfKNV_B_o1mwAAAT_ZRnMtc_cTETVMD81QRbW-l8FUUQ5w3KY
+2013-07-06 20:24:51.885 Journey[8536:c07] login succeeded
+2013-07-06 20:24:52.018 Journey[8536:c07] success (time: 1.80): POST https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtOpAN0OZpEeKfKNV_B_o1mwAAAT_ZRnMtc_cTETVMD81QRbW-l8FUUQ5w3KY
+2013-07-06 20:24:52.018 Journey[8536:c07] write succeeded
+2013-07-06 20:24:52.528 Journey[8536:c07] success (time: 2.65): GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtOpAN0OZpEeKfKNV_B_o1mwAAAT_ZRnMtc_cTETVMD81QRbW-l8FUUQ5w3KY
+2013-07-06 20:24:52.568 Journey[8536:c07] success (time: 2.71): GET https://api.usergrid.com/asagustin/journey/journeys?access_token=YWMtOpAN0OZpEeKfKNV_B_o1mwAAAT_ZRnMtc_cTETVMD81QRbW-l8FUUQ5w3KY
+2013-07-06 20:24:52.568 Journey[8536:c07] [object Object]
+2013-07-06 20:24:52.569 Journey[8536:c07] [object Object]
+2013-07-06 20:24:52.569 Journey[8536:c07] [object Object]
+2013-07-06 20:24:52.570 Journey[8536:c07] [object Object]
+2013-07-06 20:24:52.570 Journey[8536:c07] [object Object]
+2013-07-06 20:24:52.570 Journey[8536:c07] [object Object]
+Terminating in response to SpringBoard's termination.

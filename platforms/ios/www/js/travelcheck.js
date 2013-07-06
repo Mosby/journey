@@ -17,7 +17,7 @@ $(document).ready( function ( ) {
                 if (status.indexOf('ontraden') > -1 ) {
                     var newline = status.replace('ontraden', '<span style="color:#f00;font-weight:bold;">ontraden</span>');
                     $('.classification').empty().html(newline);
-                } 
+                }
                 if (status.indexOf('Waakzaamheid') > -1) {
                     var newline = status.replace('Waakzaamheid', '<span style="color:#00f;font-weight:bold;">Waakzaamheid</span>');
                     $('.classification').empty().html(newline);
