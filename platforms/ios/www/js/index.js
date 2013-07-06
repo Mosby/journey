@@ -28,7 +28,7 @@ var app = {
                 if (error) { 
                    alert('De gegevens die u heeft ingevoerd zijn niet bekend bij ons.');
                 } else { 
-                   location.href = 'home.html' 
+                   location.href = '#home'; 
                 } 
             });
         });
@@ -52,7 +52,7 @@ var app = {
         //     } 
         //  });
         // console.log(journey);
-        
+
         // journeys.fetch(
         //     function() { // Success
         //         while(journeys.hasNextEntity()) {
