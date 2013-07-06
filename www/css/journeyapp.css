@@ -1,3 +1,29 @@
 .inline-block {
 	display:block;
 }
+
+body.home #reposHome{
+	background:url(../img/home-bg.jpg) no-repeat;
+	background-size:100%;
+}
+
+.login-home a {
+	width:35%;
+	float:right;
+	margin-left:15px;
+	display:inline-block;
+}
+
+.login-home a .ui-btn-text {
+	font-size:12px;
+}
+
+.login-home a .ui-btn-inner {
+	padding: 2px 5px;
+}
+
+.login-home {
+	width:75%;
+	display:block;
+	margin:175px auto 0;
+}
