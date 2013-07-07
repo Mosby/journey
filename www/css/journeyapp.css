@@ -66,25 +66,43 @@
 
 a.my-travels {
 	background:url(../img/wereldbol.png) no-repeat;
-	background-size:17%;
+	background-size:14%;
 	padding-left:25px;
 }
 
 a.my-documents {
 	background:url(../img/documenten_icon.png) no-repeat;
-	background-size:17%;
+	background-size:14%;
 	padding-left:25px;
 }
 
 a.my-tips {
 	background:url(../img/tips_and_tricks_icon.png) no-repeat;
-	background-size:17%;
+	background-size:14%;
 	padding-left:25px;
 }
 
 a.my-profile {
 	background:url(../img/profiel_icon.png) no-repeat;
-	background-size:25%;
+	background-size:15%;
 	padding-left:25px;
 }
 
+#home .ui-btn-inner {
+	text-align:left;
+	margin-left:20px;
+}
+
+.themed-button{
+	padding-left:15px;
+	border: 1px solid #b29573 /*{a-bup-border}*/;
+	background: #333 /*{a-bup-background-color}*/;
+	font-weight: bold;
+	color: #fff /*{a-bup-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #cbb294 /*{a-bup-background-start}*/), to( #cbb294 /*{a-bup-background-end}*/));
+	background-image: -webkit-linear-gradient( #cbb294 /*{a-bup-background-start}*/, #cbb294 /*{a-bup-background-end}*/);
+	background-image: -moz-linear-gradient( #cbb294 /*{a-bup-background-start}*/, #cbb294 /*{a-bup-background-end}*/);
+	background-image: -ms-linear-gradient( #cbb294 /*{a-bup-background-start}*/, #cbb294 /*{a-bup-background-end}*/);
+	background-image: -o-linear-gradient( #cbb294 /*{a-bup-background-start}*/, #cbb294 /*{a-bup-background-end}*/);
+	background-image: linear-gradient( #cbb294 /*{a-bup-background-start}*/, #cbb294 /*{a-bup-background-end}*/);
+}
