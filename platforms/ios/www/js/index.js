@@ -1,4 +1,8 @@
+var client;
+
 var app = {
+
+
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -15,7 +19,7 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        var client = new Usergrid.Client({
+        client = new Usergrid.Client({
             orgName:'asagustin',
             appName:'journey',
             logging: true
@@ -27,7 +31,9 @@ var app = {
             client.login(email, password, function (error, response) {
                 if (error) { 
                    alert('De gegevens die u heeft ingevoerd zijn niet bekend bij ons.');
-                } else { 
+                } else {
+                    window.localStorage.setItem("user_email", email); 
+                    window.localStorage.setItem("user_password", password);
                    location.href = '#home'; 
                 } 
             });
@@ -39,30 +45,18 @@ var app = {
             }
         });
 
-        
-
-        // var journeys = new Usergrid.Collection({ "client":client, "type":"journeys" });
-
-        // var journey = {"destination": "Bla" + Math.random()};
-        // journeys.addEntity(journey, function (error, response) {
-        //      if (error) { 
-        //         console.log("write failed");
-        //      } else { 
-        //         console.log("write succeeded"); 
-        //     } 
-        //  });
-        // console.log(journey);
-
-        // journeys.fetch(
-        //     function() { // Success
-        //         while(journeys.hasNextEntity()) {
-        //             var journey = journeys.getNextEntity();
-        //             console.log(journey); // Output the title of the book
-        //         }
-        //     }, function() { // Failure
-        //         console.log("read failed");
-        //     }
-        // );      
+         
     },
+
+    preChechAuth: function() {
+        var stored_email = window.localStorage.getItem("user_email");
+        var stored_password = window.localStorage.getItem("user_password");
+
+        if(stored_password && stored_email) {
+            $('.email-field').val(stored_email);
+            $('.password-field').val(stored_password);
+            $('.inloggen').click();
+        }  
+    }
 };
 
