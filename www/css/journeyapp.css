@@ -54,3 +54,37 @@
 .no-collapse h3 a {
 	color:#fff;
 }
+
+.plus-sign {
+	float:right;
+	font-size:19px;
+}
+
+#home .ui-icon.ui-icon-plus.ui-icon-shadow {
+	display:none;
+}
+
+a.my-travels {
+	background:url(../img/wereldbol.png) no-repeat;
+	background-size:17%;
+	padding-left:25px;
+}
+
+a.my-documents {
+	background:url(../img/documenten_icon.png) no-repeat;
+	background-size:17%;
+	padding-left:25px;
+}
+
+a.my-tips {
+	background:url(../img/tips_and_tricks_icon.png) no-repeat;
+	background-size:17%;
+	padding-left:25px;
+}
+
+a.my-profile {
+	background:url(../img/profiel_icon.png) no-repeat;
+	background-size:25%;
+	padding-left:25px;
+}
+
