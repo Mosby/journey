@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js/usergrid.js" type="text/javascript"></script>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" href="css/jquery.mobile-1.3.1.css" />
+        <link rel="stylesheet" href="css/journeyapp.css" />
+        <title>Inloggen</title>
+    </head>
+    <body>
+        <div id="login" data-role="page">
+            <div class="login-home">
+                <input class="email-field" type="email" placeholder="E-mail">
+                <input class="password-field" type="password" placeholder="Wachtwoord" >
+                <a href="#" data-role="button" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c inloggen"><span class="ui-btn-inner"><span class="ui-btn-text">Log in</span></span></a>
+                <a href="#" data-r ole="button" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-up-c"><span class="ui-btn-inner"><span class="ui-btn-text">Registreren</span></span></a>
+            </div>
+
+        </div>
+
+        <div id="home" data-role="page">
+
+            <div data-role="header" data-position="fixed" class="ui-header ui-bar-a ui-header-fixed slidedown ui-fixed-hidden" role="banner">
+                <h1 class="ui-title" role="heading" aria-level="1">Home</h1>
+                <img class="right profile" src="img/profiel.jpg" alt="">
+            </div>
+
+<!--             <ul data-role="listview" data-inset="false" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
+                <li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-btn-up-c"><div class="ui-btn-inner ui-li"><div class="ui-btn-text"><a href="#" class="ui-link-inherit" style="padding-left:0">Griekenland</a></div>
+                    <p class="classification"><span class="bold">Huidig advies:</span> Extra waakzaam betrachten</p>
+                </div></li>
+            </ul> -->
+
+            
+                <a class="my-travels" data-role="button" href="#newjourney">Mijn Reizen <span class="plus-sign">+</span></a>
+            
+                <a class="my-documents" data-role="button" href="">Documenten <span class="plus-sign">+</span></a>
+            
+            
+                <a class="my-profile" data-role="button" href="">Profiel</a>
+
+            
+                <a class="my-tips" data-role="button" href="">Tips &amp; Tricks</a>
+
+        </div>
+
+        <div id="newjourney" data-role="page">
+            <div data-role="header" data-position="fixed" class="ui-header ui-bar-a ui-header-fixed slidedown ui-fixed-hidden" role="banner">
+                <a href="#" data-role="button" class="ui-btn-left ui-btn ui-shadow ui-btn-corner-all ui-btn-up-a" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="a"><span class="ui-btn-inner"><span class="ui-btn-text">Back</span></span></a>
+                <h1 class="ui-title" role="heading" aria-level="1">Home</h1>
+                <img class="right profile" src="img/profiel.jpg" alt="">
+            </div>
+
+            <div data-role="fieldcontain">
+                <select name="select-choice-c" id="select-choice-c">
+                    <option value="standard">Land van bestemming</option>
+                    <option value="Canada">Canada</option>
+                    <option value="India">India</option>
+                    <option value="Chersonisos">Chersonisos</option>
+              </select>
+            </div>
+        </div>
+
+        <script src="js/jquery-1.8.3.min.js"></script>
+        <script src="js/inloggen.js"></script>
+        <script src="js/jquery.mobile-1.3.0.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
