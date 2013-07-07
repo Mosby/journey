@@ -51,10 +51,6 @@
 	display:none;
 }
 
-.no-collapse h3 a {
-	color:#fff;
-}
-
 .plus-sign {
 	float:right;
 	font-size:19px;
@@ -65,26 +61,26 @@
 }
 
 a.my-travels {
-	background:url(../img/wereldbol.png) no-repeat;
-	background-size:14%;
+	background:#fff url(../img/wereldbol.png) no-repeat 10px 5px;
+	background-size:10%;
 	padding-left:25px;
 }
 
 a.my-documents {
-	background:url(../img/documenten_icon.png) no-repeat;
-	background-size:14%;
+	background:#fff url(../img/documenten_icon.png) no-repeat 10px 5px;
+	background-size:10%;
 	padding-left:25px;
 }
 
 a.my-tips {
-	background:url(../img/tips_and_tricks_icon.png) no-repeat;
-	background-size:14%;
+	background:#fff url(../img/tips_and_tricks_icon.png) no-repeat 10px 5px;
+	background-size:10%;
 	padding-left:25px;
 }
 
 a.my-profile {
-	background:url(../img/profiel_icon.png) no-repeat;
-	background-size:15%;
+	background:#fff url(../img/profiel_icon.png) no-repeat 10px 5px;
+	background-size:10%;
 	padding-left:25px;
 }
 
