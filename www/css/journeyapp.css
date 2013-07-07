@@ -93,18 +93,4 @@ a.my-profile {
 	margin-left:20px;
 }
 
-.themed-button{
-	padding-left:15px;
-	border: 1px solid #b29573 /*{a-bup-border}*/;
-	background: #333 /*{a-bup-background-color}*/;
-	font-weight: bold;
-	color: #fff /*{a-bup-color}*/;
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #cbb294 /*{a-bup-background-start}*/), to( #cbb294 /*{a-bup-background-end}*/));
-	background-image: -webkit-linear-gradient( #cbb294 /*{a-bup-background-start}*/, #cbb294 /*{a-bup-background-end}*/);
-	background-image: -moz-linear-gradient( #cbb294 /*{a-bup-background-start}*/, #cbb294 /*{a-bup-background-end}*/);
-	background-image: -ms-linear-gradient( #cbb294 /*{a-bup-background-start}*/, #cbb294 /*{a-bup-background-end}*/);
-	background-image: -o-linear-gradient( #cbb294 /*{a-bup-background-start}*/, #cbb294 /*{a-bup-background-end}*/);
-	background-image: linear-gradient( #cbb294 /*{a-bup-background-start}*/, #cbb294 /*{a-bup-background-end}*/);
-}
-
 /* new journey*/
