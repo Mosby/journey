@@ -1,2 +1,3 @@
 platforms/ios/CordovaLib/build/
 platforms/ios/build/
+*.log
